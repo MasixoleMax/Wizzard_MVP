@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/registerPage.css" />
+</head>
+
+<body>
+  <div class="w3-row">
+
+    <div class="w3-container w3-twothird">
+      <strong>
+        <h1>REGISTER</h1>
+      </strong>
+      <img src="../graphics/logo.png" class="logo">
+
+      <br />
+
+      <div>
+        <form class="w3-container w3-center">
+
+          <label class="w3-center" for="Name">Name :
+            <input type="text" id="Name" name="Name" placeholder="Name of administrator">
+          </label>
+
+          <label class="w3-center" for="Surname">Surname :
+            <input type="text" id="Surname" name="Surname" placeholder="Surname of administrator">
+          </label>
+
+          <label class="w3-center" for="schoolName">School Name :
+            <input type="text" id="schoolName" name="SchoolName" placeholder="Name of the school">
+          </label>
+
+          <label class="w3-center" for="schoolType">School Type :
+            <select id="schoolType" name="SchoolType">
+              <option>Primary School</option>
+              <option>High School</option>
+            </select>
+          </label>
+
+          <label class="w3-center" for="email">E-mail Address :
+            <input type="email" id="email" name="email">
+          </label>
+
+          <label class="w3-center" for="EMIS">EMIS Number :
+            <input type="number" id="EMIS" name="EMIS" min="1" max="5">
+          </label>
+
+          <label class="w3-center" for="address">Address :
+            <textarea id="address" name="address" rows="5" cols="20"></textarea>
+          </label>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+    </div>
+
+    <div class="w3-third topnav">
+      <a class="w3-half" href="#news">REGISTER</a>
+      <a class="w3-half" href="#contact">SIGN IN</a>
+    </div>
+    <div class="w3-third">
+      <img class="quote" src="../graphics/quote.png">
+    </div>
+  </div>
+</body>
+
+</html>
