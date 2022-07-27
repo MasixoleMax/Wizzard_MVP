@@ -1,3 +1,4 @@
+/* Set the box sizing and prevent the page from scrolling horizontally */
 * {
   box-sizing: border-box;
   overflow-x: hidden;

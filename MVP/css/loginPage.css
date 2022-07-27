@@ -1,3 +1,4 @@
+/* Set the box sizing and prevent the page from scrolling horizontally */
 * {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -9,18 +10,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  height: auto;
-}
-
-/* style the entire form to the middle of the left column */
-.form {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 30px;
-  border-radius: 5px;
-  max-width: 50%;
-  overflow: hidden;
   height: auto;
 }
 
@@ -37,7 +26,9 @@ label {
 /* position the form input fields to the centre of the left column
  and style as required */
 input [type="number"] {
-  max-width: 50%;
+  max-width: 100%;
+  padding: 12px 20px;
+  margin: 8px 8px;
   display: block;
   border: 1px solid;
   border-color: grey;
@@ -49,11 +40,11 @@ input [type="number"] {
 
 /* style the submit button to be clear and visible */
 input[type="submit"] {
-  max-width: 100%;
+  width: 50%;
   background-color: #4caf50;
   color: white;
-  padding: 10px;
-  margin: 40px 10px;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
