@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -19,14 +18,16 @@
       <br />
 
       <div>
-        <form class="w3-row w3-center">
+        <form class="w3-container w3-center" action="#" target="_blank" method="post" autocomplete="on">
 
-          <label for="EMIS">EMIS Number :
-            <input class="w3-center" type="number" placeholder="Please Enter" name="EMIS" required>
+          <label class="w3-center" for="EMIS">EMIS Number :
+            <input type="number" placeholder="Please Enter" name="EMIS" required>
           </label>
 
-          <label for="EMIS">Unique Code :
-            <input class="w3-center" type="number" placeholder="Please Enter" name="EMIS" required>
+          <label class="w3-center" for="EMIS">Your Password :
+            <input type="password" placeholder="Please Enter" name="EMIS" id="myPassword" required>
+            <br />
+            <input type="checkbox" onclick="showPassword()">Show Password 
           </label>
 
           <input type="submit" value="Login">
@@ -38,67 +39,15 @@
       </div>
     </div>
 
-
     <div class="w3-third topnav">
-      <a class="w3-half" href="#news">REGISTER</a>
-      <a class="w3-half" href="#contact">SIGN IN</a>
+      <a class="w3-half" href="../html/registerPage.html">REGISTER</a>
+      <a class="w3-half" href="../html/loginPage.html">SIGN IN</a>
     </div>
     <div class="w3-third">
       <img class="quote" src="../graphics/quote.png">
     </div>
   </div>
-</body>
-
-
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="../css/homePage.css"/>
-</head>
-
-<body>
-  <div class="w3-row">
-    <div class="w3-container w3-twothird">
-      <h1>REGISTER</h1>
-      <img src="../graphics/logo.png" class="logo">
-      <div>
-        <form class="w3-twothird">
-          <label for="schoolName">School Name</label>
-          <input type="text" id="schoolName" name="SchoolName" placeholder="Name of the school...">
-
-          <label for="schoolType">School Type</label>
-          <select id="schoolType" name="SchoolType">
-            <option>Primary School</option>
-            <option>High School</option>
-          </select>
-
-          <label for="email">E-mail Address</label>
-          <input type="email" id="email" name="email">
-
-          <label for="EMIS">EMIS Number</label>
-          <input type="number" id="EMIS" name="EMIS" min="1" max="5">
-
-          <label for="address">Address</label>
-          <textarea id="address" name="address" rows="5" cols="20"></textarea>
-
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-
-    </div>
-  
-    <div class="w3-third topnav">
-      <a class="w3-half" href="#news">REGISTER</a>
-      <a class="w3-half" href="#contact">SIGN IN</a>
-    </div>
-    <div class="w3-third">
-      <img class="quote" src="../graphics/quote.png">
-    </div>
-
-  </div>
+  <script type="text/javascript" src="../javaScript/showPassword.js"></script>
 </body>
 
 </html>

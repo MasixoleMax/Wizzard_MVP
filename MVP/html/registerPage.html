@@ -19,37 +19,37 @@
       <br />
 
       <div>
-        <form class="w3-container w3-center">
+        <form class="w3-container w3-center" action="#" target="_blank" method="post" autocomplete="on">
 
           <label class="w3-center" for="Name">Name :
-            <input type="text" id="Name" name="Name" placeholder="Name of administrator">
+            <input type="text" id="Name" name="Name" placeholder="Name of administrator" required>
           </label>
 
           <label class="w3-center" for="Surname">Surname :
-            <input type="text" id="Surname" name="Surname" placeholder="Surname of administrator">
+            <input type="text" id="Surname" name="Surname" placeholder="Surname of administrator" required>
           </label>
 
           <label class="w3-center" for="schoolName">School Name :
-            <input type="text" id="schoolName" name="SchoolName" placeholder="Name of the school">
+            <input type="text" id="schoolName" name="SchoolName" placeholder="Name of the school" required>
           </label>
 
           <label class="w3-center" for="schoolType">School Type :
-            <select id="schoolType" name="SchoolType">
+            <select id="schoolType" name="SchoolType" required>
               <option>Primary School</option>
               <option>High School</option>
             </select>
           </label>
 
           <label class="w3-center" for="email">E-mail Address :
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
           </label>
 
           <label class="w3-center" for="EMIS">EMIS Number :
-            <input type="number" id="EMIS" name="EMIS" min="1" max="5">
+            <input type="number" id="EMIS" name="EMIS" min="1" max="10" required>
           </label>
 
           <label class="w3-center" for="address">Address :
-            <textarea id="address" name="address" rows="5" cols="20"></textarea>
+            <textarea id="address" name="address" rows="5" cols="20" required></textarea>
           </label>
 
           <input type="submit" value="Submit">
@@ -59,8 +59,8 @@
     </div>
 
     <div class="w3-third topnav">
-      <a class="w3-half" href="#news">REGISTER</a>
-      <a class="w3-half" href="#contact">SIGN IN</a>
+      <a class="w3-half" href="../html/registerPage.html">REGISTER</a>
+      <a class="w3-half" href="../html/loginPage.html">SIGN IN</a>
     </div>
     <div class="w3-third">
       <img class="quote" src="../graphics/quote.png">
