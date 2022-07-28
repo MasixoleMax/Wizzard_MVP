@@ -21,16 +21,19 @@
         <form class="w3-container w3-center" action="#" target="_blank" method="post" autocomplete="on">
 
           <label class="w3-center" for="EMIS">EMIS Number :
-            <input type="number" placeholder="Please Enter" name="EMIS" required>
+            <input type="number" placeholder="Please Enter" name="EMIS" id="email" required>
+            <div class="error error-txt">Emis can't be blank</div>
+        
           </label>
 
           <label class="w3-center" for="EMIS">Your Password :
             <input type="password" placeholder="Please Enter" name="EMIS" id="myPassword" required>
             <br />
             <input type="checkbox" onclick="showPassword()">Show Password 
+            <div class="error error-txt">Password can't be blank</div>
           </label>
 
-          <input type="submit" value="Login">
+          <input type="submit" value="Login" onClick="login()">
 
           <input type="checkbox" checked="checked" name="remember">Remember me
           <span>Forgot<a href="#"> code?</a></span>
@@ -48,6 +51,7 @@
     </div>
   </div>
   <script type="text/javascript" src="../javaScript/showPassword.js"></script>
+  <script type="text/javascript" src="../javaScript/loginPage.js"></script>
 </body>
 
 </html>

@@ -141,3 +141,9 @@ h1 {
   text-decoration: none;
   font-size: 17px;
 }
+.error{
+  display: none;
+}
+.error-txt{
+  color: #dc3545;
+}
