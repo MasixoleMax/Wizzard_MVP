@@ -23,6 +23,11 @@
           <label class="w3-center" for="EMIS">Username :
             <input type="text" placeholder="Please Enter" name="EMIS" id="emis" required>
             <div name ="err" class="error error-txt">This field can not be blank! Please enter the EMIS number.</div>
+
+          <label class="w3-center" for="EMIS">EMIS Number :
+            <input type="number" placeholder="Please Enter" name="EMIS" id="email" required>
+            <div class="error error-txt">Emis can't be blank</div>
+
         
           </label>
 
@@ -30,7 +35,11 @@
             <input type="password" placeholder="Please Enter" name="EMIS" id="password" required>
             <br />
             <input type="checkbox" onclick="showPassword()">Show Password 
+
             <div class="error error-txt">This field can not be blank! Please enter your password.</div>
+
+            <div class="error error-txt">Password can't be blank</div>
+
           </label>
 
           <input type="submit" value="Login" onClick="login()">
