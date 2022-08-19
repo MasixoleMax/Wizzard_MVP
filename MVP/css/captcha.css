@@ -12,7 +12,7 @@ body{
     flex-direction: column;
 }
 #captchaHeading {
-    color: white;
+    color:#2d3748;
 }
 #captcha {
     height: 80%;
